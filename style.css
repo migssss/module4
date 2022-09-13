@@ -1,6 +1,6 @@
 .container h1{
     color: #00642e;
-    font-size: 110px;
+    font-size: 100px;
     font-weight: lighter;
     padding: 0px 0px 0px 20px;
     margin-left: 170px;
@@ -50,6 +50,15 @@
     display: none;
     top: 100%;
     right: 0;
+}
+
+.topnav ul li:hover > ul{
+    display: block;
+}
+
+.topnav ul ul li:hover a{
+    background: white;
+    position: relative;
 }
 
 .message{
