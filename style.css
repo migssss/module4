@@ -10,7 +10,7 @@
 .container .topnav{
     font-size: 17px;
     color: #00642e;
-    background: white;
+    background: clear;
 }
 
 .topnav::after{
@@ -40,7 +40,7 @@
 }
 
 .topnav ul ul li{
-    background: white;
+    background: clear;
 }
 
 .topnav ul ul{
