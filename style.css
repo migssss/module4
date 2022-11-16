@@ -1,0 +1,105 @@
+.container h1{
+    color: #00642e;
+    font-size: 100px;
+    font-weight: lighter;
+    padding: 0px 0px 0px 20px;
+    margin-left: 170px;
+    margin-right: 1000px;
+}
+
+.container .topnav{
+    font-size: 17px;
+    color: #00642e;
+    background: clear;
+}
+
+.topnav::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.topnav ul{
+    text-align: right;
+    list-style: none;
+    margin: 0;
+}
+
+.topnav ul li{
+    display: inline;
+    list-style-type: none;
+    float: right;
+    position: relative;
+}
+
+.topnav ul li a{
+    text-decoration: none;
+    color: #00642e;
+    padding: 10px 15px;
+    display: block;
+}
+
+.topnav ul ul li{
+    background: clear;
+}
+
+.topnav ul ul{
+    position: absolute;
+    padding: 0px;
+    min-width: 110px;
+    display: none;
+    top: 100%;
+    right: 0;
+}
+
+.topnav ul li:hover > ul{
+    display: block;
+}
+
+.topnav ul ul li:hover a{
+    background: white;
+    position: relative;
+}
+
+.tab{
+    margin:auto;
+    
+}
+
+.message{
+    float: right;
+    margin-right: 200px;
+}
+
+p{
+    color: #00642e;
+    font-weight: lighter;
+    text-align: center;
+    font: georgia;
+    padding: 0px 300px 60px 300px;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.foot{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #00642e;
+    text-align: center;
+    position: relative;
+}
