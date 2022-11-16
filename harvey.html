@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>For Harvey</title> 
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Harvey Lopez</h1>
+            </header>
+    
+            <div class="topnav" id="myTopnav">
+                <div class="dropdown">
+                    <button class="dropbtn">collections
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="harvey.html">For Harvey</a>
+                        <a href="daysgone.html">Days Gone Bye</a>
+                        <a href="besidesfire.html">Beside the Dying Fire</a>
+                    </div>
+                </div> 
+                <a href="aboutme.html">about</a>
+                <a href="#">friends</a>
+                <a href="index.html">goshu</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+    
+
+        <div>
+            <h3>For Harvey</h3>
+                <p class="maincap">
+                    For the little time that life was able to have you in my life <br>
+                    for the multiple trips and adventures we took on such little notice <br>
+                    for the goals that you dreamed of<br>
+                    and for the things that secretly made you human behind those walls. <br>
+                    thank you for letting me experience your life through my eyes. 
+                    you helped me find my stability and confidence when everyone around me abandoned my ship. 
+                    I love you like a brother I had for decades. 
+                    Long live Harvey. 
+                </p>
+        </p>
+        </div>
+
+        <div class="gallery">
+            <div>
+                <img src="fotos/Harvey/har1.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="h-stretch-stretch">
+                <img src="fotos/Harvey/har2.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="big-stretch">
+                <img src="fotos/Harvey/har3.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="big-stretch">
+                <img src="fotos/Harvey/har4.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="h-stretch">
+                <img src="fotos/Harvey/har5.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div>
+                <img src="fotos/Harvey/har6.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="big-stretch">
+                <img src="fotos/Harvey/har7.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="v-stretch">
+                <img src="fotos/Harvey/har8.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="v-stretch">
+                <img src="fotos/Harvey/har9.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div>
+                <img src="fotos/Harvey/har10.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div>
+                <img src="fotos/Harvey/har11.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="h-stretch">
+                <img src="fotos/Harvey/har12.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="v-stretch">
+                <img src="fotos/Harvey/har13.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div>
+                <img src="fotos/Harvey/har14.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="big-stretch">
+                <img src="fotos/Harvey/har15.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div>
+                <img src="fotos/Harvey/har16.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="v-stretch">
+                <img src="fotos/Harvey/har17.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="v-stretch">
+                <img src="fotos/Harvey/har18.jpeg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img id="img01" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+    <footer>
+        <p>Author of ©Goshu 2022 All Rights Reserved: Miguel Hernandez</p>
+    </footer>
+    
+<script src="script.js"></script>
+</body> 
+
+</html>
+<!-- https://web.dev/css-animated-grid-layouts/ grid layout idea -->
