@@ -183,6 +183,15 @@ body{
     margin-left: 150px;
 }
 
+.titlecards{
+    color:#024b30;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
+    font-size: 50px
+}
+
 p{
     color: #00642e;
     text-align: center;
