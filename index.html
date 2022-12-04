@@ -3,56 +3,54 @@
     <head>
         <title>goshu</title> 
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
-<!-- this would be considered my main page. all it has here is the video requirement for my milestone
-and a small, yet vague line of dialogue to welcome anyone who is coming to see my website. navigation will be top right 
-of the screen. footer you can find at the bottom of the screen. -->
-<body>
-    <div class="container">
-        <header>
-            <h1>goshu</h1>
-        </header>
-    
-        <nav class="topnav">
-            <ul>
-                <li><a href="index.html">goshu</a></li>
-                <li><a href="expectations.html">what to expect</a></li>
-                <li><a href="#">collections</a>
-                    <ul>
-                        <li><a href="#">days gone by</a></li>
-                        <li><a href="mangapan.html">manga panels</a></li>
-                        <li><a href="#">harvey</a></li>
-                        <li><a href="creatures.html">creatures</a></li>
-                    </ul>
-                </li>
-                <li><a href="aboutme.html">about me
-                    <ul>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </li> 
-                <li><a href="#">friends</a></li>
-            </ul>
-        </nav>
-    </div>
-    <br>
-    <center>
-        <p>hello, friend. its been a while.<br>
+    <body>
+        <div class="container">
+            <header>
+                <h1>goshu</h1>
+            </header>
+
+            <div class="topnav" id="myTopnav">
+                <div class="dropdown">
+                    <button class="dropbtn">collections
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="harvey.html">for Harvey</a>
+                        <a href="daysgone.html">Days Gone Bye</a>
+                        <a href="concerts.html">Music Shows</a>
+                        <a href="dogs.html">Max and Belle</a>
+                    </div>
+                </div> 
+                <a href="aboutme.html">about</a>
+                <a href="#">friends</a>
+                <a href="index.html">goshu</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+        <section class="maincap">
+            <h4 class="hello">hello, friends. its been a while since you've heard from me.</h4>
             <br>
             <br>
-        this is supposed to be a website about photos I have taken over the course of my life<br>
-        and putting it somewhere for people to see. hopefully, you all like it. okay, now enjoy the video. 
-        </p>
-    </center>
-    <br>
+            <p>
+                I'm not sure what I expected by sharing this with you. I just know that I'm proud of it. 
+                I have spend quite a long time alone, but at the same time, meeting new people whenever the chance presents itself. 
+                I thought this whole time I didn't have a purpose to capture any more photos when the good times have left me a while back. 
+                And then I realized, I didn't want to lose the people I have met after losing everyone, again before.
+                So what better way to do it than by saving my photos, pubicly. 
+                So enjoy the moments that have made my life so divine to exist. 
+            </p>
+        </section>
     <center><video src="fotos/maxx.MOV" width="1000" height="750" controls></center>
-    <br>
     
-    <div class="foot">
-        <footer>
-            @created by the best mariokart player.
-        </footer>
-    </div>
- 
+    <footer>
+        <p class="bottom">Author of ©Goshu 2022 All Rights Reserved: Miguel Hernandez</p>
+    </footer>
+<script src="script.js"></script>        
 </body> 
 
 </html>
+
+<!-- https://nicepage.com/html-templates/preview/more-information-for-your-reference-651176?device=desktop -->
